@@ -1009,7 +1009,7 @@ a .fl {
   font-weight: bold;
 }
 .tag.new {
-  background-color: crimson;
+  background-color: maroon;
 }
 #torrent-list .tag.new {
   float: left;
