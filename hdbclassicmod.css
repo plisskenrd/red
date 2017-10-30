@@ -56,7 +56,7 @@ th a:link:hover, th a:link:focus, th a:link:active, th a:visited:hover, th a:vis
 }
 input, select, textarea, button, .button {
   outline: none;
-  border: 1px solid #a6a6a6;
+  border: none;
   background-color: #d9d9d9;
   color: black;
   -webkit-transition: background-color 0.2s ease-out, color 0.2s ease-out;
@@ -65,7 +65,7 @@ input, select, textarea, button, .button {
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
 }
 input:focus, select:focus, textarea:focus, button:focus, .button:focus {
-  border: 1px solid #a6a6a6;
+  border: none;
   background-color: #2f4879;
   color: #d9d9d9;
 }
@@ -76,7 +76,7 @@ input[disabled] {
 button, button[type="button"], .button,
 input[type="button"], input[type="submit"], input[type="reset"] {
   outline: none;
-  border: 1px solid #a6a6a6;
+  border: none;
   background-color: #d9d9d9;
   color: black;
   -webkit-transition: background-color 0.2s ease-out, color 0.2s ease-out;
@@ -90,7 +90,7 @@ input[type="button"], input[type="submit"], input[type="reset"] {
 }
 button:focus, button[type="button"]:focus, .button:focus,
 input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
-  border: 1px solid #a6a6a6;
+  border: none;
   background-color: #2f4879;
   color: #d9d9d9;
 }
@@ -106,7 +106,7 @@ button:hover, button:focus, button:active, button[type="button"]:hover, button[t
 input[type="button"]:hover,
 input[type="button"]:focus,
 input[type="button"]:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active, input[type="reset"]:hover, input[type="reset"]:focus, input[type="reset"]:active {
-  border: 1px solid #a6a6a6;
+  border: none;
   background-color: #2f4879;
   color: #d9d9d9;
 }
@@ -199,7 +199,7 @@ a.altlink:link:active, a.altlink:visited:active {
   transition: none;
 }
 table.tablesorter {
-  border: 1px solid #698ba5;
+  border: none;
 }
 .tablesorter > tbody > tr {
   -webkit-transition: background-color 0.2s ease-out;
@@ -757,7 +757,7 @@ td.bottom > table[width="500"]:first-of-type td a {
   -moz-transition: background-color 0.2s ease-out, color 0.2s ease-out;
   -o-transition: background-color 0.2s ease-out, color 0.2s ease-out;
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
 }
 td.bottom > table[width="800"]:first-of-type td a:hover, td.bottom > table[width="800"]:first-of-type td a:focus,
@@ -802,7 +802,7 @@ td.bottom > table[width="500"]:first-of-type td a:active {
   -moz-transition: background-color 0.2s ease-out, color 0.2s ease-out;
   -o-transition: background-color 0.2s ease-out, color 0.2s ease-out;
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
 }
 #tabs > .tab a:hover, #tabs > .tab a:focus {
@@ -821,7 +821,7 @@ td.bottom > table[width="500"]:first-of-type td a:active {
 /* Torrent lists */
 #torrent-list {
   background: none;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -958,7 +958,7 @@ td.bottom > table[width="500"]:first-of-type td a:active {
 }
 #offerstable, #table_open_requests {
   background: none;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1037,7 +1037,7 @@ td.catcell, td[id^="codec"] {
   background: #bdcad6;
 }
 form > #searchbox {
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1047,7 +1047,7 @@ form > #searchbox {
 html #searchcriteria {
   background-color: #bdcad6;
   margin-bottom: 20px;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1127,7 +1127,7 @@ b .pagerel {
 }
 #tv-show-list {
   width: 500px;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1137,7 +1137,7 @@ b .pagerel {
   background-color: #bdcad6;
   margin-left: 35px;
   width: 400px;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1204,14 +1204,14 @@ a.film_morelink:hover, a.film_morelink:focus, a.film_morelink:active, a.tv_morel
   text-decoration: underline;
 }
 .statbox .statbanner {
-  border: 1px solid #3f5769;
+  border: none;
 }
 /* Browse - User Lists */
 html .list-description {
   background-color: #bdcad6;
   max-width: 850px;
   margin: 30px 0 20px;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1219,8 +1219,8 @@ html .list-description {
 }
 html .item > h2, html .item > h2 + div.item-body {
   box-shadow:none;
-  border-left: 1px solid #3f5769;
-  border-right: 1px solid #3f5769;
+  border-left: none;
+  border-right: none;
   box-sizing: border-box;
   border-collapse: separate;
 }
@@ -1291,7 +1291,7 @@ html .list-links > a:active {
 #list-add-container {
   padding: 5px 20px 15px 20px;
   background-color: #bdcad6;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1303,7 +1303,7 @@ html .list-links > a:active {
 #tabs ~ form + table {
   background: none;
   margin-top: 20px;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1317,7 +1317,7 @@ html .list-links > a:active {
 }
 #list-add > table.form-input {
   background-color: #bdcad6;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1327,7 +1327,7 @@ html .list-links > a:active {
 td.bottom > table + h1 ~ table:not([class]),
 td.bottom > table + h1 ~ div > table:not([class]) {
   background: none;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1359,7 +1359,7 @@ td[style="border: 1px black dashed"] {
   word-break: break-word;
 }
 table.std-content {
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1382,14 +1382,14 @@ table.std-content {
 }
 .std-content > tbody > tr > td > table.readpost {
   background-color: #b1bec9;
-  border: 1px solid #a2b1be;
+  border: none;
 }
 .std-content > tbody > tr > td > table.readpost .main {
   background: none;
 }
 .std-content > tbody > tr > td > table.main {
   background-color: #7997af;
-  border: 1px solid #698ba5;
+  border: none;
 }
 .std-content > tbody > tr > td > table.main .main {
   background: none;
@@ -1468,7 +1468,7 @@ td.bottom > form[action="/log.php"] ~ table {
   background: none;
   color: black;
   width: 850px;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1512,23 +1512,23 @@ tr.logentry:nth-of-type(even).edited {
 /* Homepage */
 table.interiortable {
   background-color: #7997af;
-  border: 1px solid #698ba5;
+  border: none;
 }
 table.poll {
   background: none;
 }
 #news > h2, #news > h2 + table {
   box-shadow:none;
-  border-left: 1px solid #3f5769;
-  border-right: 1px solid #3f5769;
+  border-left: none;
+  border-right: none;
   box-sizing: border-box;
   border-collapse: separate;
 }
 #news > h2 {
-  border-top: 1px solid #3f5769;
+  border-top: none;
 }
 #news > h2 + table {
-  border-bottom: 1px solid #3f5769;
+  border-bottom: none;
   margin-bottom: 20px;
 }
 /* Polls */
@@ -1541,7 +1541,7 @@ td.embedded[bgcolor="#ECE9D8"] {
 }
 /* Torrent details page */
 #details {
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1570,7 +1570,7 @@ tr[bgcolor="#436c80"] {
 /* Show page */
 #showpage {
   background-color: #bdcad6;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1587,7 +1587,7 @@ tr[bgcolor="#436c80"] {
 }
 /* Requests */
 table.sources_table, table.lottery_table, table.lottery_table2 {
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1622,7 +1622,7 @@ div.div_showhide div {
 /* Inbox */
 form[action="inbox.php"] > table {
   background: none;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1658,7 +1658,7 @@ td[bgcolor="#F4F4F0"] {
 /* Subtitles */
 td.bottom > form[action="dox.php"] + p + table {
   background: none;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1695,7 +1695,7 @@ h2 > a[name="blocks"] {
 /* Wish list */
 #wishlist {
   background: none;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1730,7 +1730,7 @@ h2 > a[name="blocks"] {
 }
 /* Bonus points page */
 table.tableb {
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1738,25 +1738,25 @@ table.tableb {
 }
 table.tableb table {
   background-color: #7997af;
-  border: 1px solid #698ba5;
+  border: none;
 }
 /* Featured queue */
 table.padding2 {
   background-color: #7997af;
-  border: 1px solid #698ba5;
+  border: none;
 }
 /* Invites */
 .invite_notice {
   background-color: #bdcad6;
   color: darkred;
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
   border-spacing: 0;
 }
 .invite_notice + table {
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
@@ -1787,18 +1787,18 @@ form[name="comment"] + h3:only-of-type + table.main:last-of-type {
   width: 850px;
 }
 .center_comments > table.main:only-of-type > tbody > tr > td > table {
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
   border-spacing: 0;
 }
 .center_comments > table.main:only-of-type > tbody > tr > td > table > tbody > tr > td > p.sub + table.main {
-  border: 1px solid #698ba5;
+  border: none;
 }
 /* Send message */
 form[name="message"] {
-  border: 1px solid #3f5769;
+  border: none;
   box-shadow:none;
   box-sizing: border-box;
   border-collapse: separate;
