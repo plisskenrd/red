@@ -1401,23 +1401,27 @@ table.std-content {
 .unlockednew {
   width: 32px;
   height: 32px;
-  background: url("https://i.imgur.com/dR0p24j.png") no-repeat center;
+  background: url("https://i.imgur.com/j7EffKX.png") no-repeat center;
 }
+
 .unlocked {
   width: 32px;
   height: 32px;
-  background: url("https://i.imgur.com/XC1YBJW.png") no-repeat center;
+  background: url("https://i.imgur.com/sKZGwfn.png") no-repeat center;
 }
+
 .lockednew {
   width: 32px;
   height: 32px;
-  background: url("https://i.imgur.com/O3aJTud.png") no-repeat center;
+  background: url("https://i.imgur.com/tm8gdX6.png") no-repeat center;
 }
+
 .locked {
   width: 32px;
   height: 32px;
-  background: url("https://i.imgur.com/CaOLhPq.png") no-repeat center;
+  background: url("https://i.imgur.com/ep9G7kI.png") no-repeat center;
 }
+
 .hasposted::after {
   content: url("https://i.imgur.com/sNDgx57.png");
   height: 10px;
@@ -1426,8 +1430,9 @@ table.std-content {
   left: 11px;
   position: relative;
 }
+
 img[src="/pic/info/icon_profile.gif"] {
-  background-image: url("https://i.imgur.com/gAytHkZ.png");
+  background-image: url("https://i.imgur.com/bm9YdX1.png");
   background-repeat: no-repeat;
   background-size: 57px 20px;
   height: 20px;
@@ -1435,7 +1440,7 @@ img[src="/pic/info/icon_profile.gif"] {
   width: 0;
 }
 img[src="/pic/info/icon_pm.gif"] {
-  background-image: url("https://i.imgur.com/5EhpJiR.png");
+  background-image: url("https://i.imgur.com/47DvxZA.png");
   background-repeat: no-repeat;
   background-size: 57px 20px;
   height: 20px;
@@ -1443,7 +1448,7 @@ img[src="/pic/info/icon_pm.gif"] {
   width: 0;
 }
 img[src="/pic/info/icon_www.gif"] {
-  background-image: url("https://i.imgur.com/vFUSv9c.png");
+  background-image: url("https://i.imgur.com/wRDQTUh.png");
   background-repeat: no-repeat;
   background-size: 57px 20px;
   height: 20px;
@@ -1451,7 +1456,7 @@ img[src="/pic/info/icon_www.gif"] {
   width: 0;
 }
 img[src="/pic/icon_latest_reply.gif"] {
-  background-image: url("https://i.imgur.com/CcPG8pk.png");
+  background-image: url("https://i.imgur.com/bxhTY8N.png");
   background-repeat: no-repeat;
   background-size: 18px 9px;
   height: 9px;
