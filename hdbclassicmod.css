@@ -1957,9 +1957,3 @@ td.text table.main,
 table.donate {
   background: none;
 }
-document.addEventListener("DOMContentLoaded", function() {
-   $j(".comment img:not([width])").on('load', function() {
-       if (this.width != this.naturalWidth)
-           $j(this).after('<br>This image has been resized, click <a target="_blank" href="' + this.src + '">here</a> to view the full-sized image.<br>');
-   });
-});
